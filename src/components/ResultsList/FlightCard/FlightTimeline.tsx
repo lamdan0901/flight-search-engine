@@ -27,7 +27,7 @@ export const FlightTimeline = ({
   itineraryDayOffset,
 }: FlightTimelineProps) => (
   <Box sx={{ flex: 1 }}>
-    <Stack direction="column" alignItems="center" spacing={1}>
+    <Stack direction="column" alignItems="center">
       <Stack
         direction="row"
         alignItems="center"
